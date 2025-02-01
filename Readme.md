@@ -31,7 +31,7 @@ systemctl status nginx
 
 http://your_server_ip:8080
 ```
-[](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img4.png)
+![](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img4.png)
 Now you have successfully setup nginx server.  
 ### Refer Nginx web server setup my medium post
 [www.medium.com/how-to-setup-nginx-web-server](https://medium.com/@nikhil-c/how-to-setup-nginx-web-server-on-ubuntu-v20-39ec20c0dbc3)
@@ -54,8 +54,8 @@ systemctl status firewalld.service
 #### check normal working :
 * check apache server : http://my-ip:80/index.html
 * check nginx server : http://my-ip:8080/
-[](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img3.png)
-[](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img4.png)
+![](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img3.png)
+![](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img4.png)
 Yes, both are working.
 
 #### edit config file :
@@ -88,7 +88,7 @@ systemctl start nginx.service
 #### Final working check 
 * Browser nginx server : http://my-ip:8080/
 
-[image 4](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img4.png)
+![](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img4.png)
 
 * It reflects with apache server default page. It means, we successfully setup reverse proxy.
 
