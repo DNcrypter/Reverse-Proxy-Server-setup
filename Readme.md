@@ -9,7 +9,7 @@
 ## 🍁Introduction 
 In this project, I am going to setup 2 apache web server that are attack to nginx reverse proxy server. Lets start step by step.
 
-[image1]()
+[](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img2.png)
 ## 🍁 Nginx web server setup :
 As Nginx is available in Ubuntu’s default repositories, it is possible to install it from these repositories using the **apt** packaging system:
 ### Step 1 - Installing Nginx
@@ -31,7 +31,7 @@ systemctl status nginx
 
 http://your_server_ip:8080
 ```
-[image 2]()
+[](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img4.png)
 Now you have successfully setup nginx server.  
 ### Refer Nginx web server setup my medium post
 [www.medium.com/how-to-setup-nginx-web-server](https://medium.com/@nikhil-c/how-to-setup-nginx-web-server-on-ubuntu-v20-39ec20c0dbc3)
@@ -54,7 +54,8 @@ systemctl status firewalld.service
 #### check normal working :
 * check apache server : http://my-ip:80/index.html
 * check nginx server : http://my-ip:8080/
-[image 1+2]()
+[](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img3.png)
+[](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img4.png)
 Yes, both are working.
 
 #### edit config file :
@@ -87,7 +88,7 @@ systemctl start nginx.service
 #### Final working check 
 * Browser nginx server : http://my-ip:8080/
 
-[image 4]()
+[image 4](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img4.png)
 
 * It reflects with apache server default page. It means, we successfully setup reverse proxy.
 
