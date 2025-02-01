@@ -9,7 +9,7 @@
 ## 🍁Introduction 
 In this project, I am going to setup 2 apache web server that are attack to nginx reverse proxy server. Lets start step by step.
 
-[](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img2.png)
+![](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img2.png)
 ## 🍁 Nginx web server setup :
 As Nginx is available in Ubuntu’s default repositories, it is possible to install it from these repositories using the **apt** packaging system:
 ### Step 1 - Installing Nginx
