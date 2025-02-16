@@ -7,7 +7,7 @@
 
 
 ## 🍁Introduction 
-In this project, I am going to setup 2 apache web server that are attack to nginx reverse proxy server. Lets start step by step.
+In this project, I am going to setup 2 apache web server that are attach to nginx reverse proxy server. Lets start step by step.
 
 ![](https://github.com/DNcrypter/Reverse-Proxy-Server-setup/blob/main/images/img2.png)
 ## 🍁 Nginx web server setup :
